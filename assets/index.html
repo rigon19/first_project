@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Rental Company</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap');
+        </style>
+</head>
+<body>
+    <header>
+
+            <img src="./img/sedan.png" class="img-1" width="100px" alt="Company-logo">
+        
+        <div class="comp-name">
+            <h1> Rental Company</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Rental Information</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="reserve-card">
+            <div class="car-select">
+                <select name="cars" class="car-select">
+                    <option value=""> - Available Cars -</option>
+                    <option value="Audi">Audi A7</option>
+                    <option value="Benz">Mercedes C class</option>
+                    <option value="Golf">Golf 7</option>
+                    <option value="Tesla">Tesla Model X</option>
+                    <option value="Mclaren">McLaren P1</option>
+                </select>
+               
+            </div>
+            <div class="location">
+                <form>
+                    <input type="text" name="pick-up" placeholder="Enter a City or Airport" class="loc">
+                </form>
+            </div>
+            <div class="time-1">
+                <form>
+                    <p class="p-1">Pick Up <input type="datetime-local" name="time-of-reservation" class="t-1"></p>
+                </form>
+            </div>
+            <div class="time-2">
+                <form>
+                    <p class="p-2">Drop off <input type="datetime-local" name="time-of-reservation" class="t-2"></p>
+                </form>
+            </div>
+            <div class="rent">
+                <form>
+                    <input type="submit" class="submit" name="submit" value="Confirm Car Reservation">
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title">The best rentals in the country</div>
+            <div class="cars">
+                <img src="https://www.pngplay.com/wp-content/uploads/13/Audi-A7-Transparent-Background.png" class="car-1">
+                <!--<img src="https://www.pngkey.com/png/full/772-7723571_2019-mercedes-benz-c-class-sedan-hero-image.png" class="car-2">
+                <img src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/golf75-png.png" class="car-3">
+                <img src="https://www.pngmart.com/files/22/Tesla-Model-X-PNG-Isolated-File.png" class="car-4">
+                <img src="https://www.nicepng.com/png/full/955-9551717_design-cartoon-cars-mclaren-p1-clear-background.png" class="car-5">-->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="logos">
+            <img src="./img/sedan.png" alt="company" class="f-p-1">
+            <img src="./img/instagram-logo.png" alt="Social-media" class="fp-2">
+            <img src="./img/facebook-app-symbol.png" alt="Social-media" class="fp-3">
+            <img src="./img/twitter.png" alt="Social-media" class="fp-4">
+        </div>
+        <ul class="f-ul">
+            <li><a href="#">Rental Information</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">More</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
